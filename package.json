@@ -1,0 +1,22 @@
+{
+  "name": "upgrade2g6v3",
+  "version": "0.0.1",
+  "description": "upgrade @antv/g6 to version v3.3 (ts supported)",
+  "main": "index.js",
+  "bin": {
+    "up2g6v33": "./bin/up2g6v33.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "xiaoliu-heng",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.7",
+    "gogocode": "^1.0.27",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
